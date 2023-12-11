@@ -1,5 +1,5 @@
-# This project was submitted as a Course Credit Project to VNRVJIET.
-# The dataset we was provided by "Cambridge" to "VNRVJIET, Hyderabad, India" and was not used for commercial purposes. Any replication of this dataset can and will be prone to sueing.
+## This project was submitted as a Course Credit Project to VNRVJIET.
+## The dataset we was provided by "Cambridge" to "VNRVJIET, Hyderabad, India" and was not used for commercial purposes. Any replication of this dataset can and will be prone to sueing.
 
 ## Classifying KDD_paper_data into yes and no folders manually
 1. yes - 141
