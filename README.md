@@ -10,6 +10,8 @@ This project leverages deep learning to classify COVID-19 status based on cough 
 - **Electronic ISBN:** 978-1-6654-2577-3
 - **Print on Demand ISBN:** 978-1-6654-2578-0
 
+### **🔗 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/9726067)**
+
 ## Dataset and Usage
 
 - The dataset was provided by Cambridge University to VNRVJIET, Hyderabad, India, and is strictly for non-commercial, academic use.
@@ -57,5 +59,3 @@ This project leverages deep learning to classify COVID-19 status based on cough 
 1. Upload an audio file using the "Browse files" button.
 2. Click "Generate Prediction."
 3. View your prediction results.
-
- IEEE Xplore, "A Deep Learning Approach for COVID-19 Detection Using Cough and Breathing Sounds," 2022 International Conference for Advancement in Technology (ICONAT), 21-22 January 2022.
