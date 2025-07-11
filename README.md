@@ -1,34 +1,61 @@
-## This project was submitted as a Course Credit Project to VNRVJIET.
-The dataset was provided by "Cambridge" to "VNRVJIET, Hyderabad, India" and was not used for commercial purposes. Any replication of this dataset can and will be prone to sueing.
+## Project Overview
 
-## Classifying KDD_paper_data into yes and no folders manually
-1. yes - 141
-2. no - 408
+This project leverages deep learning to classify COVID-19 status based on cough and breathing sounds. The model utilizes a CNN-Bidirectional LSTM architecture and is trained on the Covid-sounds dataset provided by Cambridge University. The dataset includes audio samples from COVID-positive, negative, and other respiratory disease cases, enabling robust classification. The model has demonstrated superior performance compared to previous approaches using the same dataset.
 
-## The data is augmented using various utility functions and data obtained is:
-1. yes_augmented_clean - 682
-2. no_augmented_clean - 524
+> *COVID-19 is highly contagious, with over 29.9 million cases reported in India and 179 million cases worldwide. The rising case numbers have strained testing facilities and put lab technicians at risk. Scientists have turned to machine learning to analyze coughs, leading to the development of models that can classify cough types. This project implements a CNN-Bidirectional LSTM model using the Covid-sounds dataset, which contains both breathing and cough samples. The model processes these recordings and classifies them, outperforming other models on the same dataset.*
 
-## Converting audio data into MFCC features:
-1. X - 8442
-2. Y - 8442 (yes and no labels)
+- **Published in:** 2022 International Conference for Advancement in Technology (ICONAT)
+- **Date of Conference:** 21-22 January 2022
+- **Date Added to IEEE Xplore:** 10 March 2022
+- **Electronic ISBN:** 978-1-6654-2577-3
+- **Print on Demand ISBN:** 978-1-6654-2578-0
 
-## Running Major project code:
-Upon running the code, covid_model is generated
+## Dataset and Usage
 
-## covid_model
-The folder contains assets, variables and model itself
+- The dataset was provided by Cambridge University to VNRVJIET, Hyderabad, India, and is strictly for non-commercial, academic use.
+- Unauthorized replication of the dataset is prohibited and may result in legal action.
 
-## Installing streamlit
-You must have installed streamlit frame work in your environments to run this
-Open anaconda prompt to install streamlit
-command: pip install streamlit
+## Data Preparation
 
-## Running streamlit.py
-Open anaconda prompt to run command
-command: streamlit run streamlit.py
+### Manual Classification
 
-## Prediction for COVID by user:
-Step-1: Upload file using browse files button
-Step-2: Click Generate Prediction
-Step-3: Get your prediction results
+- **yes:** 141 samples
+- **no:** 408 samples
+
+### Data Augmentation
+
+- **yes_augmented_clean:** 682 samples
+- **no_augmented_clean:** 524 samples
+
+### Feature Extraction
+
+- Audio data is converted into MFCC features:
+  - **X:** 8,442
+  - **Y:** 8,442 (labels: yes/no)
+
+## Model and Code Execution
+
+### Running the Major Project Code
+
+- Executing the code generates the `covid_model` directory, which contains all assets, variables, and the trained model.
+
+### Streamlit Web App
+
+1. **Install Streamlit:**
+   - Open Anaconda Prompt and run:
+     ```
+     pip install streamlit
+     ```
+2. **Run the Application:**
+   - In Anaconda Prompt, execute:
+     ```
+     streamlit run streamlit.py
+     ```
+
+## User Prediction Steps
+
+1. Upload an audio file using the "Browse files" button.
+2. Click "Generate Prediction."
+3. View your prediction results.
+
+ IEEE Xplore, "A Deep Learning Approach for COVID-19 Detection Using Cough and Breathing Sounds," 2022 International Conference for Advancement in Technology (ICONAT), 21-22 January 2022.
